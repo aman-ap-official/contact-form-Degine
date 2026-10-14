@@ -229,7 +229,9 @@ Works in all modern evergreen browsers (Chrome, Edge, Firefox, Safari). Requires
 
 ## License
 
-This project is provided for educational and portfolio purposes. Add a license of your choice (e.g., MIT) if you intend to distribute it.
+This project is released under the **Attribution License** — see the [LICENSE](LICENSE) file for full details.
+
+**You are free to use, modify, and build upon this code in your own project, but you must give credit to the original author for creating this form.**
 
 ---
 
