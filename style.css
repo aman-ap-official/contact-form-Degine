@@ -100,3 +100,57 @@ body {
     transform: translateX(5px);
 }
 
+/* Terms & Conditions Page */
+#terms {
+    padding: 80px 0;
+    background-color: var(--dark-bg);
+    min-height: 100vh;
+}
+#terms .section-title {
+    font-family: var(--font-heading);
+}
+.back-link {
+    color: var(--highlight-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.back-link:hover {
+    color: var(--primary-color);
+    transform: translateX(-4px);
+}
+.legal-content h3 {
+    color: var(--highlight-color);
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+.legal-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.05rem;
+    margin-bottom: 12px;
+}
+.credit-box {
+    background-color: #3a3a4d;
+    border-left: 4px solid var(--primary-color);
+    padding: 30px;
+}
+.credit-box h4 {
+    color: var(--primary-color);
+}
+.credit-box p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.05rem;
+}
+.credit-box strong {
+    color: var(--text-light);
+}
+.credit-box a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+.credit-box a:hover {
+    text-decoration: underline;
+}
+
