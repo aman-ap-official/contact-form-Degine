@@ -1,0 +1,102 @@
+/* Custom Properties (Variables) for easy theme changes */
+:root {
+    --primary-color: #ffc0cb;   /* Pink (main brand color) */
+    --secondary-color: #d1d1f6; /* Light Purple/Blue (accent 1) */
+    --accent-color: #c0fff4;    /* Light Green/Teal (accent 2) */
+    --highlight-color: #ffd5c0; /* Peach/Orange (for buttons, highlights) */
+    --extra-accent-color: #fff5c0; /* Light Yellow (subtle highlight/text) */
+
+    --dark-bg: #2b2b3b;         /* Darker tone for contrast */
+    --light-bg: #fdfdfe;        /* Very light background */
+    --text-dark: #333d47;       /* Dark grey for readability */
+    --text-light: #fff;
+
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+/* General Body & Typography */
+body {
+    font-family: var(--font-body);
+    line-height: 1.7;
+    color: var(--text-dark);
+    overflow-x: hidden; /* Prevent horizontal scroll due to animations */
+    background-color: var(--light-bg);
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 80px 0; /* Consistent section padding */
+    background-color: var(--dark-bg);
+}
+#contact h3 {
+    color: var(--highlight-color); /* Peach for contact headings */
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+#contact p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.1rem;
+}
+#contact p strong {
+    color: var(--text-light);
+}
+#contact i.fas {
+    color: var(--highlight-color); /* Icons in contact info */
+}
+
+.map-container {
+    height: 350px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+#contact .form-control {
+    background-color: #4a4a5c; /* Darker input fields */
+    border: 1px solid #6b6b7f;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+#contact .form-control::placeholder {
+    color: #bbb;
+}
+#contact .form-control:focus {
+    background-color: #5a5a70;
+    border-color: var(--highlight-color); /* Highlight color on focus */
+    box-shadow: 0 0 0 0.25rem rgba(255, 213, 192, 0.25);
+}
+#contact .form-label {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.submit-btn {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--text-light);
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.submit-btn:hover {
+    background-color: #e0acb8;
+    border-color: #e0acb8;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 192, 203, 0.3);
+}
+.submit-btn i {
+    transition: transform 0.3s ease-in-out;
+}
+.submit-btn:hover i {
+    transform: translateX(5px);
+}
+
